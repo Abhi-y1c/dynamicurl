@@ -1,0 +1,263 @@
+*{
+    scroll-behavior: smooth;
+}
+html{
+    overflow-x: hidden;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+#navbar{
+    display: flex;
+    justify-content: center;
+    background-image: url('https://itemsstore.net/html/trito/img/hero/1.jpg');
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+    position: sticky;
+    top: 0px;
+}
+#navbar li a {
+    margin: 20px;
+    text-decoration: none;
+ }
+ #navbar li a img{
+    width: 80px;
+    margin-right: 200px;
+ }
+#download1{
+margin-left: 200px;
+background-color: rgb(145, 145, 158);
+padding-top: 5px;
+border-radius: 5px;
+color: black;
+}
+#download a{
+    color: #15171a;
+}
+/* ============hero section=========== */
+.hero{
+    display: flex;
+    justify-content: center;
+
+
+}
+.hero div img{
+    width: 500px;
+}
+.hero1{
+    font-size: 40px;
+}
+.hero2{
+    font-size: 60px;
+}
+.hero3{
+    font-size: 30px;
+}
+.hero4 span{
+    background-color: aliceblue;
+    color: black;
+    padding: 10px 25px 10px 25px ;
+    border: 2px solid black;
+}
+.herodiv1{
+    margin-top: 120px;
+    margin-left: 100px;
+}
+.hero{
+    padding-top: 120px;
+    background-image: url('https://itemsstore.net/html/trito/img/hero/1.jpg');
+}
+/* ---------hero section end------ */
+/* --------skills------ */
+.skills{
+    background-color: rgb(27, 27, 65);
+    padding: 40px;
+}
+#firsttd{
+    color: aliceblue;
+    font-size:30px ;
+    font-weight: 700;
+    padding-left: 350px;
+}
+/*==========end skills====== */
+/* =======dedication======== */
+.dedication div span{
+    font-size: 30px;
+    font-weight: 700;
+}
+.dedication{
+     display: flex;
+    justify-content: center;
+    padding: 40px;
+
+}
+.div1{
+    padding: 40px;
+    border-right : 2px black solid;
+}
+/* ==========end dedication========= */
+/* ======my skills========= */
+.myskills{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    padding: 70px 150px 70px 150px;
+}
+.myskills .myskillsdiv1{
+    padding-top: 50px;
+    margin: 30px;
+}
+.myskills .myskillsdiv2{
+    background-image: url('https://itemsstore.net/html/trito/img/skills/1.jpg');
+    margin: 30px;
+}
+.myskills .myskillsdiv2 ul{
+    list-style-type: none;
+    display: flex;
+}
+.myskills .myskillsdiv2 ul li{
+    border: 2px solid rgb(22, 22, 55);
+    padding: 10px;
+    font-size: 25px;
+    background-color: aliceblue;
+    margin: 30px;
+}
+/* ==========my skills end=========== */
+/* ==========season1======== */
+.pro1{
+    display: flex;
+    justify-content: center;
+    
+}
+.pro2{
+    margin: 50px;
+}
+.pro1 span{
+    margin-top: 25px;
+}
+.pro2 span{
+    margin-top: 25px;
+}
+.pro3 span{
+    margin-top: 25px;
+}
+/* ============season1 end======= */
+/* ==========season2========== */
+.about{
+    display: flex;
+    justify-content: center;
+    background-image: url('https://itemsstore.net/html/trito/img/about/background.jpg');
+}
+.about .about1{
+    margin: 50px;
+    padding: 80px;
+}
+.about .about2{
+    margin:30px;
+    padding: 200px 100px 50px 50px;
+}
+.about12{
+    display: flex;
+    border: 2px solid rgb(93, 57, 57);
+    width:250px;
+    position: relative;
+    top: 650px;
+    left: 160px;
+    background-color: bisque;
+}
+.about12 .about12div1{
+    color: orangered;
+    font-size: 50px;
+    margin: 5px;
+}
+.about .about12div2{
+    color: bisque;
+    font-size: 35px;
+}
+.about .hire{
+    border: 1px solid black;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: rgb(66, 14, 170);
+    width : 80px;
+    font-size: 20px;
+}
+/* ============season2end================== */
+/* ---------port------- */
+.port{
+    display: flex;
+    justify-content: center;
+}
+.port div{
+    width: 50%;
+    overflow: hidden;
+    border: 2px solid black;
+    margin: 10px;
+}
+.port div img{
+width: 100%;
+}
+.port div img:hover{
+    scale: 1.3;
+    transition: 1s;
+}
+
+.port2{
+    display: flex;
+    justify-content: center;
+}
+.port2 div{
+    width: 33%;
+    margin: 10px;
+    overflow: hidden;
+    border: 2px solid;
+}
+.port2 div img{
+    width: 100%;
+}
+.port2 div img:hover{
+    scale: 1.3;
+    transition: 1s;
+}
+/*===========end port */
+/* ==========season5========== */
+.denim{
+    background-image: url('https://itemsstore.net/html/trito/img/hero/1.jpg');
+    height: 400px;
+}
+.denim2{
+    border: 1px solid black;
+    width: 170px;
+    padding: 15px ;
+    background-color: rgb(236, 240, 243);
+margin-left: 570px;
+}
+/*=================== season5end============== */
+/* ==================season6=============== */
+
+.abhi {
+    margin: 50px;
+    padding: 10px 50px 10px 50px;
+    
+}
+.abhi img{
+    border: 1px solid black;
+    border-radius: 150px;
+}
+
+
+
+/* ==============season6================ */
+/* =============season7================= */
+.mark1 div form input{
+    font-size: 20px;
+    margin-top: 10px;
+    width: 390px;
+
+}
